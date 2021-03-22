@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		267D9D791AD700DDE4471C58 /* Pods_SAVSwiftUI__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE96206452FA1DB6BF1DEED /* Pods_SAVSwiftUI__iOS_.framework */; };
+		330A66762607CF1900C877CD /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330A66752607CF1900C877CD /* Tests_iOS.swift */; };
+		330A66812607CF1900C877CD /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330A66802607CF1900C877CD /* Tests_macOS.swift */; };
+		330A66832607CF1900C877CD /* SAVSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330A665A2607CF1900C877CD /* SAVSwiftUIApp.swift */; };
+		330A66852607CF1900C877CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330A665B2607CF1900C877CD /* ContentView.swift */; };
+		330A66872607CF1900C877CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 330A665C2607CF1900C877CD /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		330A66722607CF1900C877CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 330A66552607CF1900C877CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 330A66602607CF1900C877CD;
+			remoteInfo = "SAVSwiftUI (iOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		330A665A2607CF1900C877CD /* SAVSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAVSwiftUIApp.swift; sourceTree = "<group>"; };
+		330A665B2607CF1900C877CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		330A665C2607CF1900C877CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		330A66612607CF1900C877CD /* SAVSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAVSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		330A66642607CF1900C877CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330A666B2607CF1900C877CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330A666C2607CF1900C877CD /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		330A66712607CF1900C877CD /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		330A66752607CF1900C877CD /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		330A66772607CF1900C877CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330A667C2607CF1900C877CD /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		330A66802607CF1900C877CD /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		330A66822607CF1900C877CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		572E29CC44E0472FD8581211 /* Pods-SAVSwiftUI (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAVSwiftUI (iOS).debug.xcconfig"; path = "Target Support Files/Pods-SAVSwiftUI (iOS)/Pods-SAVSwiftUI (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		BCE96206452FA1DB6BF1DEED /* Pods_SAVSwiftUI__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAVSwiftUI__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E097C0310B46EA90213D7BA7 /* Pods-SAVSwiftUI (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAVSwiftUI (iOS).release.xcconfig"; path = "Target Support Files/Pods-SAVSwiftUI (iOS)/Pods-SAVSwiftUI (iOS).release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		330A665E2607CF1900C877CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267D9D791AD700DDE4471C58 /* Pods_SAVSwiftUI__iOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330A666E2607CF1900C877CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330A66792607CF1900C877CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		330A66542607CF1900C877CD = {
+			isa = PBXGroup;
+			children = (
+				330A66592607CF1900C877CD /* Shared */,
+				330A66632607CF1900C877CD /* iOS */,
+				330A666A2607CF1900C877CD /* macOS */,
+				330A66742607CF1900C877CD /* Tests iOS */,
+				330A667F2607CF1900C877CD /* Tests macOS */,
+				330A66622607CF1900C877CD /* Products */,
+				3481F767A27E9132F44346AA /* Pods */,
+				45252C6617BADB09235AB53B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		330A66592607CF1900C877CD /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				330A665A2607CF1900C877CD /* SAVSwiftUIApp.swift */,
+				330A665B2607CF1900C877CD /* ContentView.swift */,
+				330A665C2607CF1900C877CD /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		330A66622607CF1900C877CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				330A66612607CF1900C877CD /* SAVSwiftUI.app */,
+				330A66712607CF1900C877CD /* Tests iOS.xctest */,
+				330A667C2607CF1900C877CD /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		330A66632607CF1900C877CD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				330A66642607CF1900C877CD /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		330A666A2607CF1900C877CD /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				330A666B2607CF1900C877CD /* Info.plist */,
+				330A666C2607CF1900C877CD /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		330A66742607CF1900C877CD /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				330A66752607CF1900C877CD /* Tests_iOS.swift */,
+				330A66772607CF1900C877CD /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		330A667F2607CF1900C877CD /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				330A66802607CF1900C877CD /* Tests_macOS.swift */,
+				330A66822607CF1900C877CD /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		3481F767A27E9132F44346AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				572E29CC44E0472FD8581211 /* Pods-SAVSwiftUI (iOS).debug.xcconfig */,
+				E097C0310B46EA90213D7BA7 /* Pods-SAVSwiftUI (iOS).release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		45252C6617BADB09235AB53B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCE96206452FA1DB6BF1DEED /* Pods_SAVSwiftUI__iOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		330A66602607CF1900C877CD /* SAVSwiftUI (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330A668B2607CF1900C877CD /* Build configuration list for PBXNativeTarget "SAVSwiftUI (iOS)" */;
+			buildPhases = (
+				C408BE85C7C8EF9EC157C673 /* [CP] Check Pods Manifest.lock */,
+				330A665D2607CF1900C877CD /* Sources */,
+				330A665E2607CF1900C877CD /* Frameworks */,
+				330A665F2607CF1900C877CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SAVSwiftUI (iOS)";
+			productName = "SAVSwiftUI (iOS)";
+			productReference = 330A66612607CF1900C877CD /* SAVSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		330A66702607CF1900C877CD /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330A66912607CF1900C877CD /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				330A666D2607CF1900C877CD /* Sources */,
+				330A666E2607CF1900C877CD /* Frameworks */,
+				330A666F2607CF1900C877CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				330A66732607CF1900C877CD /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 330A66712607CF1900C877CD /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		330A667B2607CF1900C877CD /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330A66942607CF1900C877CD /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				330A66782607CF1900C877CD /* Sources */,
+				330A66792607CF1900C877CD /* Frameworks */,
+				330A667A2607CF1900C877CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 330A667C2607CF1900C877CD /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		330A66552607CF1900C877CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					330A66602607CF1900C877CD = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					330A66702607CF1900C877CD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 330A66602607CF1900C877CD;
+					};
+					330A667B2607CF1900C877CD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 330A66682607CF1900C877CD;
+					};
+				};
+			};
+			buildConfigurationList = 330A66582607CF1900C877CD /* Build configuration list for PBXProject "SAVSwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 330A66542607CF1900C877CD;
+			productRefGroup = 330A66622607CF1900C877CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				330A66602607CF1900C877CD /* SAVSwiftUI (iOS) */,
+				330A66702607CF1900C877CD /* Tests iOS */,
+				330A667B2607CF1900C877CD /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		330A665F2607CF1900C877CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330A66872607CF1900C877CD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330A666F2607CF1900C877CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330A667A2607CF1900C877CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C408BE85C7C8EF9EC157C673 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SAVSwiftUI (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		330A665D2607CF1900C877CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330A66852607CF1900C877CD /* ContentView.swift in Sources */,
+				330A66832607CF1900C877CD /* SAVSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330A666D2607CF1900C877CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330A66762607CF1900C877CD /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330A66782607CF1900C877CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330A66812607CF1900C877CD /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		330A66732607CF1900C877CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 330A66602607CF1900C877CD /* SAVSwiftUI (iOS) */;
+			targetProxy = 330A66722607CF1900C877CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		330A66892607CF1900C877CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		330A668A2607CF1900C877CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		330A668C2607CF1900C877CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 572E29CC44E0472FD8581211 /* Pods-SAVSwiftUI (iOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L8HRMVV32;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rochdiCA.SAVSwiftUI;
+				PRODUCT_NAME = SAVSwiftUI;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		330A668D2607CF1900C877CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E097C0310B46EA90213D7BA7 /* Pods-SAVSwiftUI (iOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L8HRMVV32;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rochdiCA.SAVSwiftUI;
+				PRODUCT_NAME = SAVSwiftUI;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		330A66922607CF1900C877CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L8HRMVV32;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rochdiCA.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SAVSwiftUI (iOS)";
+			};
+			name = Debug;
+		};
+		330A66932607CF1900C877CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L8HRMVV32;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rochdiCA.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SAVSwiftUI (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		330A66952607CF1900C877CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5L8HRMVV32;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rochdiCA.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SAVSwiftUI (macOS)";
+			};
+			name = Debug;
+		};
+		330A66962607CF1900C877CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5L8HRMVV32;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rochdiCA.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SAVSwiftUI (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		330A66582607CF1900C877CD /* Build configuration list for PBXProject "SAVSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330A66892607CF1900C877CD /* Debug */,
+				330A668A2607CF1900C877CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		330A668B2607CF1900C877CD /* Build configuration list for PBXNativeTarget "SAVSwiftUI (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330A668C2607CF1900C877CD /* Debug */,
+				330A668D2607CF1900C877CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		330A66912607CF1900C877CD /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330A66922607CF1900C877CD /* Debug */,
+				330A66932607CF1900C877CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		330A66942607CF1900C877CD /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330A66952607CF1900C877CD /* Debug */,
+				330A66962607CF1900C877CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 330A66552607CF1900C877CD /* Project object */;
+}

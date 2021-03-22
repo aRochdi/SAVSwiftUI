@@ -1,0 +1,13 @@
+current directory: /Users/rochdiaries/Dev/SAVSwiftUI/local/gems/ruby/3.0.0/gems/json-1.8.6/ext/json
+/opt/homebrew/opt/ruby/bin/ruby -I /opt/homebrew/Cellar/ruby/3.0.0_1/lib/ruby/3.0.0 -r ./siteconf20210321-64048-bz8t28.rb extconf.rb
+creating Makefile
+
+current directory: /Users/rochdiaries/Dev/SAVSwiftUI/local/gems/ruby/3.0.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/rochdiaries/Dev/SAVSwiftUI/local/gems/ruby/3.0.0/gems/json-1.8.6/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/rochdiaries/Dev/SAVSwiftUI/local/gems/ruby/3.0.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" install
